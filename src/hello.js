@@ -1,3 +1,3 @@
-let word = "Hello";
+let word = "Hello00";
 
 export default word;
