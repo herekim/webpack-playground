@@ -13,4 +13,12 @@ module.exports = {
     //번들링될 파일 이름
     filename: "bundle.js",
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 };
