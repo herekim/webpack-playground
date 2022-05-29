@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./src/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world.js */ \"./src/world.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\ndocument.querySelector(\"#root\").textContent = _world_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"] + \" \" + _hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\nconsole.log(\"css\", _style_css__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n\n\n//# sourceURL=webpack://webpack-playground/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./src/hello.js\");\n/* harmony import */ var _world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world.js */ \"./src/world.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\ndocument.querySelector(\"#root\").textContent =\n  _world_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"] + \" \" + _hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"] + \"ㅎㅎ\";\nconsole.log(\"css\", _style_css__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n\n\n//# sourceURL=webpack://webpack-playground/./src/about.js?");
 
 /***/ }),
 
