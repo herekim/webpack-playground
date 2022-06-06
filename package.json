@@ -4,7 +4,9 @@
   "description": "webpack playground 🎡",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "npx webpack --config webpack.config.env.js --env MODE=production",
+    "production": "npx webpack --config webpack.config.env.js --env MODE=production"
   },
   "repository": {
     "type": "git",
